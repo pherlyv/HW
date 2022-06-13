@@ -1,4 +1,6 @@
-HW Devtools
+## HW Devtools
+
+## https://youtu.be/eUN5huj1u-w
 
  1. Открыть Chrome DevTools
  2. Зайти в панель Elements.
