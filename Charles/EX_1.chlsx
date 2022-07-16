@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE charles-session SYSTEM "https://www.charlesproxy.com/dtd/charles-session-1_2.dtd">
+
+<charles-session>
+<transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="162.55.220.72" port="5005" actualPort="5005" path="/get_method" query="name=Dima&amp;age=24" remoteAddress="162.55.220.72/162.55.220.72" clientAddress="/127.0.0.1" clientPort="0" startTime="2022-07-10T22:28:29.337+07:00" startTimeMillis="1657466909337" requestBeginTime="2022-07-10T22:28:29.453+07:00" requestBeginTimeMillis="1657466909453" requestTime="2022-07-10T22:28:29.453+07:00" requestTimeMillis="1657466909453" responseTime="2022-07-10T22:28:29.570+07:00" responseTimeMillis="1657466909570" endTime="2022-07-10T22:28:29.572+07:00" endTimeMillis="1657466909572" duration="215" dnsDuration="0" connectDuration="96" requestDuration="0" responseDuration="2" latency="117" overallSpeed="1958" requestSpeed="0" responseSpeed="94500" totalSize="421">
+<request headers="232" body="0">
+<headers>
+<first-line><![CDATA[GET /get_method?name=Dima&age=24 HTTP/1.1]]></first-line>
+<header>
+<name>User-Agent</name>
+<value>PostmanRuntime/7.29.0</value></header>
+<header>
+<name>Accept</name>
+<value>*/*</value></header>
+<header>
+<name>Postman-Token</name>
+<value>3d96a9fa-bd2e-46dc-8f70-4f50ffe4495d</value></header>
+<header>
+<name>Host</name>
+<value>162.55.220.72:5005</value></header>
+<header>
+<name>Accept-Encoding</name>
+<value>gzip, deflate, br</value></header>
+<header>
+<name>Connection</name>
+<value>keep-alive</value></header></headers></request>
+<response status="200" headers="167" body="22" mime-type="application/json">
+<headers>
+<first-line><![CDATA[HTTP/1.0 200 OK]]></first-line>
+<header>
+<name>Content-Type</name>
+<value>application/json</value></header>
+<header>
+<name>Content-Length</name>
+<value>22</value></header>
+<header>
+<name>Server</name>
+<value>Werkzeug/2.0.1 Python/3.8.10</value></header>
+<header>
+<name>Date</name>
+<value>Sun, 10 Jul 2022 15:28:30 GMT</value></header>
+<header>
+<name>Connection</name>
+<value>close</value></header></headers></response></transaction>
+<transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="162.55.220.72" port="5005" actualPort="5005" path="/get_method" query="name=Anton&amp;age=24" remoteAddress="162.55.220.72/162.55.220.72" clientAddress="/127.0.0.1" clientPort="0" startTime="2022-07-10T22:29:06.060+07:00" startTimeMillis="1657466946060" requestBeginTime="2022-07-10T22:30:45.684+07:00" requestBeginTimeMillis="1657467045684" requestTime="2022-07-10T22:30:45.685+07:00" requestTimeMillis="1657467045685" responseTime="2022-07-10T22:30:45.778+07:00" responseTimeMillis="1657467045778" endTime="2022-07-10T22:30:45.779+07:00" endTimeMillis="1657467045779" duration="189" dnsDuration="0" connectDuration="94" requestDuration="1" responseDuration="1" latency="93" overallSpeed="2243" requestSpeed="233000" responseSpeed="191000" totalSize="424">
+<request headers="233" body="0">
+<headers>
+<first-line><![CDATA[GET /get_method?name=Anton&age=24 HTTP/1.1]]></first-line>
+<header>
+<name>User-Agent</name>
+<value>PostmanRuntime/7.29.0</value></header>
+<header>
+<name>Accept</name>
+<value>*/*</value></header>
+<header>
+<name>Postman-Token</name>
+<value>4fb5347b-4826-4496-bb70-89c5c5931d78</value></header>
+<header>
+<name>Host</name>
+<value>162.55.220.72:5005</value></header>
+<header>
+<name>Accept-Encoding</name>
+<value>gzip, deflate, br</value></header>
+<header>
+<name>Connection</name>
+<value>keep-alive</value></header></headers></request>
+<response status="200" headers="168" body="23" mime-type="application/json">
+<headers>
+<first-line><![CDATA[HTTP/1.0 200 OK]]></first-line>
+<header>
+<name>Content-Type</name>
+<value>application/json</value></header>
+<header>
+<name>Content-Length</name>
+<value>23</value></header>
+<header>
+<name>Server</name>
+<value>Werkzeug/2.0.1 Python/3.8.10</value></header>
+<header>
+<name>Date</name>
+<value>Sun, 10 Jul 2022 15:30:46 GMT</value></header>
+<header>
+<name>Connection</name>
+<value>close</value></header></headers></response></transaction></charles-session>
